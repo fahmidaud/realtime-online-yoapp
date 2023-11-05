@@ -10,8 +10,9 @@ const io = new Server(server);
 
 // const pb = new PocketBase('http://192.168.43.74:1001');
 const uriPBLokal = 'http://192.168.43.75:1001';
-const uriPBOnline = '';
-const uriPB = uriPBLokal;
+const uriPBOnline = 'https://yo-pb.pockethost.io';
+// const uriPB = uriPBLokal;
+const uriPB = uriPBOnline;
 const pb = new PocketBase(uriPB);
 
 async function updateOnlinePengguna(data) {
